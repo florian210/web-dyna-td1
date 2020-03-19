@@ -3,8 +3,7 @@
 	<input type="number" value ="<?php echo $_POST["size"]; ?>" name="size">
 	<label for="color">color : </label>
 	<input type="string" value="" name="color">
-	<label for="message"> message: </label>
-	<input type="string" value="" name="message">
+	
 	<textarea name="message" rows="8" cols="45" > votre message </textarea>
 	<input type="submit" value="valider">
 </form>
